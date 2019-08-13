@@ -87,8 +87,6 @@ public class WarGame {
         }
         addToPool(c1, c2); //adds remaining drawn cards to pool to be added to the winner
         System.out.println(declareWinner(c1, c2));
-        System.out.println(playerOne.getDeck().size());
-        System.out.println(playerTwo.getDeck().size());
     }
 
     private void addToPool(Card winnerCard, Card loserCard) {

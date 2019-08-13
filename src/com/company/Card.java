@@ -13,14 +13,6 @@ public class Card {
         this.value = value;
     }
 
-    //default constructor. not used in this program
-    public Card() {
-        this.suit = null;
-        this.name = null;
-        this.value = 0;
-    }
-
-
     public int getValue() {
         return value;
     }
